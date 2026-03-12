@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-
+<?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.menuController">
    <children>
@@ -12,5 +13,20 @@
             <Image url="@img/menu.png" />
          </image>
       </ImageView>
+      <Button fx:id="btnPlay" layoutX="310.0" layoutY="270.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="180.0" text="Jouer">
+         <font>
+            <Font name="Yu Gothic UI Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnQuit" layoutX="340.0" layoutY="370.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="120.0" text="Quitter">
+         <font>
+            <Font name="Yu Gothic UI Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCredits" layoutX="706.0" layoutY="555.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="80.0" text="Crédits">
+         <font>
+            <Font name="Yu Gothic UI Bold" size="15.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
