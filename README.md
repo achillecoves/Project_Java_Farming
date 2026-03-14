@@ -1,4 +1,4 @@
-# 🌾 FarmGame – Jeu de Ferme JavaFX
+# 🌾 JavaFarm – Jeu de Ferme JavaFX
 
 Un jeu de simulation agricole développé en **Java** avec **JavaFX**, dans lequel vous gérez une ferme : cultivez des plantes, élevez des animaux, achetez et vendez des ressources dans la boutique, et sauvegardez votre progression !
 
